@@ -1,0 +1,146 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.AGUARDANDOBALADAKASKAMSKAS {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: silver; /* Cor inicial */
+  animation: backgroundTransition 10s infinite;
+}
+
+/* Animação de transição de fundo */
+@keyframes backgroundTransition {
+  0% {
+    background: rgb(94, 94, 208); /* Rpxp */
+  }
+  33% {
+    background: rgb(145, 217, 63); /* abacate */
+  }
+  66% {
+    background: black; /* Preto */
+  }
+  100% {
+    background: rgb(210, 34, 190); /* Voltar ao Roxo */
+  }
+}
+
+
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #f4b41a;
+}
+
+.hero {
+  background: url('hero-bg.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero .btn {
+  background: #f4b41a;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.sobre, .servicos, .portfolio, .contato {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.servicos .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 18px;
+
+  
+}
+
+
+.gallery {
+  display: flex;
+  gap: 20px; /* Espaçamento uniforme entre as imagens */
+  justify-content: center;
+  flex-wrap: wrap; /* Permite que as imagens quebrem linha, caso necessário */
+}
+
+.gallery img {
+  width: 30%;
+  border-radius: 18px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suavidade ao interagir */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.gallery img:hover {
+  transform: scale(1.70); /* Efeito de zoom suave ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Sombra mais destacada */
+}
+
+
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
