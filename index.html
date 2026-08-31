@@ -1,105 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Decoração de Gesso</title>
-<link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-  <header class="header">
-    <div class="container">
-      <h1 class="logo">Netinho da Vila</h1>
-      <nav class="navbar">
-        <ul>
-          <li><a href="#sobre">Sobre</a></li>
-          <li><a href="#servicos">Serviços</a></li>
-          <li><a href="#portfolio">Portfólio</a></li>
-          <li><a href="#contato">Contato</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <section class="hero">
-    <div class="container">
-      <h2>Transformamos sua casa com elegância</h2>
-      <p>Projetos em gesso modernos e personalizados para cada ambiente.</p>
-      <a href="#contato" class="btn">Entre em contato</a>
-    </div>
-  </section>
-
-  <section id="sobre" class="sobre">
-    <div class="container">
-      <h2>Sobre Nós</h2>
-      <p>Com mais de 10 anos de experiência, oferecemos soluções completas em decoração de gesso para residências e empresas.</p>
-    </div>
-  </section>
-
-  <section id="servicos" class="servicos">
-    <div class="container">
-      <h2>Nossos Serviços</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Tetos Rebaixados</h3>
-          <p>Acabamento elegante e funcional.</p>
-        </div>
-        <div class="card">
-          <h3>Detalhes em Sanca</h3>
-          <p>Design clássico e sofisticado.</p>
-        </div>
-        <div class="card">
-          <h3>Paredes 3D</h3>
-          <p>Modernidade e estilo em qualquer ambiente.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-      <h2>Portfólio</h2>
-
-        <div class="gallery">
-        <img src="img/86915a225ba3f9be8cc29cddfa0a4fbf.jpg" alt="Projeto 1">
-        <img src="img/89ae70418fe8621432c520b68990e362.jpg" alt="Projeto 2">
-        <img src="img/index.jpg" alt="Projeto 3">
-        <img src="img/203caa0d2128cd6b193f4b99cc529620.jpg" alt="Projeto 4">
-        <img src="img/7f9fd14bbc8878048371f2ce1de76f9c.jpg" alt="Projeto 5">
-        <img src="img/0d70b4fc679bf993f1964898403f894f.jpg" alt="Projeto 6">
-       </div>
-
-    </div>
-  </section>
-
-  <section id="contato" class="contato">
-    <div class="container">
-      <h2>Entre em Contato</h2>
-      <form id="contato-form">
-        <input type="text" placeholder="Seu Nome" required><br>
-        <input type="email" placeholder="Seu Email" required><br>
-        <textarea placeholder="Sua Mensagem" required></textarea><br>
-        <button type="submit" class="btn">Enviar</button><br>
-      </form>
-    </div>
-  </section>
-
-  <footer class="footer">
-    <div class="container">
-      <p>&copy; 2025 Decoração de Gesso. Todos os direitos reservados.</p>
-    </div>
-  </footer>
-
-  <script src="script.js">
-
-
-document.getElementById('contato-form').addEventListener('submit', function(e) {
-    e.preventDefault();
-    alert('Mensagem enviada com sucesso!');
-  });
-
-
-  </script>
-</body>
-</html>
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Netinho da Vila | Drywall e Gesso</title><meta name="description" content="Drywall, gesso, forros, sancas e iluminação em Barueri, Alphaville, Osasco, São Paulo e região."><style>
+:root{--b:#13120f;--g:#d9cdbb;--c:#f4f0e8}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--b);font-family:Arial,sans-serif;background:linear-gradient(#f4f0e8e8,#f4f0e8e8),url('https://netinho-da-vila-drywall-gesso.milanijhonata.chatgpt.site/images/greek-background.jpg') center/cover fixed}a{text-decoration:none;color:inherit}header{height:100px;padding:0 6vw;display:flex;align-items:center;justify-content:space-between;background:#f8f5efee;border-bottom:1px solid #bdb3a3}.brand{display:flex;gap:14px;align-items:center}.n{font:32px Georgia;border:1px solid;width:48px;height:48px;display:grid;place-items:center}.brand strong,.brand small{display:block;letter-spacing:.16em;font-family:Georgia}.brand small{font:8px Arial;letter-spacing:.29em;margin-top:5px}nav{display:flex;gap:32px;font-size:11px;text-transform:uppercase;letter-spacing:.12em}.outline{border:1px solid;padding:13px 18px;font-size:10px;text-transform:uppercase;letter-spacing:.1em}.hero{min-height:800px;padding:100px 8vw 60px;display:flex;flex-direction:column;justify-content:center;background:linear-gradient(90deg,#f5f1e9f5,#f5f1e9e6 44%,#f5f1e935 75%,transparent),url('https://netinho-da-vila-drywall-gesso.milanijhonata.chatgpt.site/images/greek-background.jpg') center 38%/cover}.over{text-transform:uppercase;letter-spacing:.24em;font-size:10px;font-weight:bold}.hero h1,.statement h2,.services h2,.portfolio h2,.contact h2{font:400 clamp(52px,7vw,102px)/.96 Georgia;margin:22px 0;letter-spacing:-.045em}.hero i,.statement i,.contact i{color:#8c7d68}.intro{max-width:560px;line-height:1.8}.btn{display:inline-block;background:var(--b);color:white;padding:17px 22px;margin-top:25px;text-transform:uppercase;letter-spacing:.1em;font-size:11px}.cities{margin-top:55px;font-size:12px}.principles{display:grid;grid-template-columns:repeat(3,1fr);background:var(--b);color:white;padding:32px 7vw;gap:30px}.principles strong{display:block;text-transform:uppercase;letter-spacing:.16em;font-size:11px}.principles p{font-size:11px;line-height:1.6}.statement{text-align:center;padding:130px 12vw;background:#f4f0e8e8}.statement h2{font-size:clamp(48px,6vw,85px)}.statement>p:last-child{max-width:700px;margin:auto;line-height:1.9}.services{display:grid;grid-template-columns:1fr 1fr;gap:8vw;padding:110px 8vw;background:#ded4c5ee}.services h2{font-size:clamp(44px,5vw,70px)}.list{border-top:1px solid}.list p{margin:0;padding:17px;border-bottom:1px solid #999083;font:17px Georgia}.portfolio{padding:110px 7vw;background:#f7f4eeee}.portfolio h2{font-size:clamp(54px,7vw,94px)}.carousel{display:grid;grid-template-columns:1.75fr .65fr;border:1px solid;background:var(--c)}.stage{height:650px;display:grid;place-items:center;background:#d8d0c4;position:relative}.stage img{width:100%;height:100%;object-fit:contain}.stage span{position:absolute;top:18px;left:18px;background:#f7f4eedb;padding:8px;font-size:10px}.caption{border-left:1px solid;padding:45px 32px;display:flex;flex-direction:column;justify-content:center}.caption h3{font:400 clamp(30px,3vw,44px)/1.05 Georgia;margin:18px 0}.caption>p{line-height:1.8;color:#6a645c}.controls{display:flex;margin-top:25px}.controls button{width:55px;height:55px;background:transparent;border:1px solid;font-size:22px;cursor:pointer}.controls button+button{border-left:0}.contact{text-align:center;padding:120px 20px;background:#ded4c5e8}.contact h2{font-size:clamp(50px,7vw,90px)}footer{background:var(--b);color:white;padding:45px 6vw;display:flex;justify-content:space-between;align-items:center;font-size:10px}.wa{position:fixed;right:22px;bottom:22px;width:55px;height:55px;border-radius:50%;background:#1d1c19;color:white;display:grid;place-items:center;font-size:24px}@media(max-width:850px){nav,header>.outline{display:none}.services,.carousel{grid-template-columns:1fr}.caption{border-left:0;border-top:1px solid}.principles{grid-template-columns:1fr}.stage{height:500px}}@media(max-width:560px){header{height:82px;padding:0 18px}.brand strong{font-size:11px}.hero{min-height:700px;padding:80px 20px 50px}.hero h1{font-size:52px}.statement,.services,.portfolio,.contact{padding:75px 20px}.statement h2,.services h2,.contact h2{font-size:43px}.stage{height:350px}.caption{padding:32px 22px}footer{padding:45px 20px 85px;display:block}footer p{margin-top:20px}}
+</style></head><body><header><div class="brand"><span class="n">N</span><div><strong>NETINHO DA VILA</strong><small>DRYWALL & GESSO</small></div></div><nav><a href="#servicos">Serviços</a><a href="#portfolio">Portfólio</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav><a class="outline" target="_blank" href="https://wa.me/5511960747863">Solicitar orçamento</a></header>
+<section class="hero"><p class="over">Arte, precisão e acabamento</p><h1>Gesso que transforma<br><i>espaços em arquitetura.</i></h1><p class="intro">Drywall, forros, sancas e iluminação executados com técnica e cuidado em cada detalhe.</p><div><a class="btn" target="_blank" href="https://wa.me/5511960747863">Fale com o Netinho</a></div><p class="cities">⌖ Barueri · Alphaville · Osasco · São Paulo e região</p></section>
+<section class="principles"><p><strong>I · Forma</strong>Projetos que valorizam o ambiente</p><p><strong>II · Precisão</strong>Execução técnica e cuidadosa</p><p><strong>III · Acabamento</strong>Elegância em cada detalhe</p></section>
+<section id="sobre" class="statement"><p class="over">Netinho da Vila</p><h2>Tradição no ofício.<br><i>Olhar contemporâneo.</i></h2><p>Do desenho mais clássico às linhas modernas, cada trabalho é realizado para unir beleza, funcionalidade e durabilidade. Atendimento direto, orçamento claro e execução comprometida.</p></section>
+<section id="servicos" class="services"><div><p class="over">Especialidades</p><h2>Domínio completo<br>em gesso e drywall.</h2></div><div class="list"><p>01 · Forros e rebaixamentos</p><p>02 · Sancas abertas e fechadas</p><p>03 · Paredes e divisórias drywall</p><p>04 · Molduras e rodatetos</p><p>05 · Rasgos e perfis de LED</p><p>06 · Nichos, painéis e cortineiros</p><p>07 · Isolamento termoacústico</p><p>08 · Reparos e manutenção</p></div></section>
+<section id="portfolio" class="portfolio"><p class="over">Obras realizadas</p><h2>Portfólio</h2><div class="carousel"><div class="stage"><img id="photo" alt=""><span id="count"></span></div><div class="caption"><p class="over">Trabalho realizado</p><h3 id="title"></h3><p id="desc"></p><div class="controls"><button id="prev" aria-label="Anterior">←</button><button id="next" aria-label="Próxima">→</button></div></div></div></section>
+<section id="contato" class="contact"><p class="over">Seu projeto começa aqui</p><h2>Vamos criar algo<br><i>extraordinário?</i></h2><p>Conte ao Netinho o que você imagina para o seu ambiente.</p><a class="btn" target="_blank" href="https://wa.me/5511960747863">WhatsApp · (11) 96074-7863</a></section><footer><div class="brand"><span class="n">N</span><div><strong>NETINHO DA VILA</strong><small>DRYWALL & GESSO</small></div></div><p>Barueri · Alphaville · Osasco · São Paulo</p></footer><a class="wa" target="_blank" href="https://wa.me/5511960747863">◉</a>
+<script>
+const base='https://netinho-da-vila-drywall-gesso.milanijhonata.chatgpt.site/images/projects/';const works=[['001','Rebaixamento geométrico em gesso','Composição personalizada com sancas e iluminação pontual.'],['002','Sanca aberta com iluminação','Moldura perimetral em gesso com luz indireta e spots.'],['003','Forro rebaixado com luz cênica','Teto com spots, lustre central e detalhe iluminado.'],['005','Sala com forro geométrico','Execução completa de teto decorativo integrado.'],['006','Sanca perimetral com LED','Acabamento decorativo com iluminação indireta.'],['007','Sanca iluminada em corredor','Detalhe contínuo em gesso e pontos de luz.'],['008','Sanca com lustre central','Teto rebaixado com iluminação e acabamento refinado.'],['009','Rebaixo com perfil de LED','Execução de linha luminosa contínua.'],['010','Forro de cozinha com spots','Rebaixamento funcional com luminárias pendentes.'],['011','Forro flutuante com luz indireta','Composição em níveis com luz perimetral.'],['013','Teto com iluminação linear integrada','Forro contemporâneo com rasgos luminosos.'],['014','Perfil linear em corredor','Luz arquitetônica integrada ao forro.'],['015','Teto decorativo com spots','Sanca com luz azul e lustre central.'],['017','Sanca fechada com LED vermelho','Projeto perimetral com luz indireta e spots.']];let i=0;function show(){const w=works[i];photo.src=base+w[0]+'-pro.webp';photo.alt=w[1];title.textContent=w[1];desc.textContent=w[2];count.textContent=String(i+1).padStart(2,'0')+' / '+works.length}prev.onclick=()=>{i=(i-1+works.length)%works.length;show()};next.onclick=()=>{i=(i+1)%works.length;show()};document.onkeydown=e=>{if(e.key==='ArrowLeft')prev.click();if(e.key==='ArrowRight')next.click()};show();
+</script></body></html>
