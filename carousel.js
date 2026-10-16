@@ -1,21 +1,13 @@
 "use strict";
 (() => {
-  const base = "https://netinho-da-vila-drywall-gesso.milanijhonata.chatgpt.site/images/projects/";
+  const base = "./img/";
   const works = [
-    ["001", "Rebaixamento geométrico em gesso", "Composição personalizada com sancas e iluminação pontual."],
-    ["002", "Sanca aberta com iluminação", "Moldura perimetral em gesso com luz indireta e spots."],
-    ["003", "Forro rebaixado com luz cênica", "Teto com spots, lustre central e detalhe iluminado."],
-    ["005", "Sala com forro geométrico", "Execução completa de teto decorativo integrado."],
-    ["006", "Sanca perimetral com LED", "Acabamento decorativo com iluminação indireta."],
-    ["007", "Sanca iluminada em corredor", "Detalhe contínuo em gesso e pontos de luz."],
-    ["008", "Sanca com lustre central", "Teto rebaixado com iluminação e acabamento refinado."],
-    ["009", "Rebaixo com perfil de LED", "Execução de linha luminosa contínua."],
-    ["010", "Forro de cozinha com spots", "Rebaixamento funcional com luminárias pendentes."],
-    ["011", "Forro flutuante com luz indireta", "Composição em níveis com luz perimetral."],
-    ["013", "Teto com iluminação linear integrada", "Forro contemporâneo com rasgos luminosos."],
-    ["014", "Perfil linear em corredor", "Luz arquitetônica integrada ao forro."],
-    ["015", "Teto decorativo com spots", "Sanca com luz azul e lustre central."],
-    ["017", "Sanca fechada com LED vermelho", "Projeto perimetral com luz indireta e spots."]
+    ["index.jpg","Teto com iluminação embutida","Forro de gesso com moldura geométrica, iluminação indireta e spots."],
+    ["0d70b4fc679bf993f1964898403f894f.jpg","Sala com iluminação indireta","Sanca iluminada, painel de televisão e acabamento contemporâneo."],
+    ["7f9fd14bbc8878048371f2ce1de76f9c.jpg","Forro decorativo com luz azul","Rebaixamento geométrico com iluminação colorida, spots e lustre central."],
+    ["203caa0d2128cd6b193f4b99cc529620.jpg","Banheiro com iluminação integrada","Forro rebaixado com luz indireta e acabamento arquitetônico."],
+    ["86915a225ba3f9be8cc29cddfa0a4fbf.jpg","Forro moderno em banheiro","Teto com iluminação de embutir em composição contemporânea."],
+    ["89ae70418fe8621432c520b68990e362.jpg","Banheiro com spots embutidos","Iluminação pontual no forro, valorizando o acabamento do ambiente."]
   ];
 
   const gallery = document.getElementById("gallery");
@@ -39,7 +31,7 @@
   let startedY = null;
   const thumbs = [];
 
-  const urlFor = (work) => base + work[0] + "-pro.webp";
+  const urlFor = (work) => base + work[0];
   const format = (n) => String(n).padStart(2, "0");
 
   for (const [index, work] of works.entries()) {
