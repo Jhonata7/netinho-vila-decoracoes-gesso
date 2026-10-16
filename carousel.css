@@ -221,3 +221,11 @@
 @media(prefers-reduced-motion:reduce){
   .gallery-stage img,.gallery-arrow,.gallery-thumb,.gallery-progress-fill{transition:none!important}
 }
+
+/* Imagens locais do próprio projeto, sem dependências externas. */
+.gallery-stage{background:radial-gradient(ellipse at center,#f2eee8 0%,#d6ccbc 100%)}
+.gallery-thumb img{object-fit:cover}
+@media(max-width:560px){
+  body{background-attachment:scroll}
+  .hero{background-position:center,62% center}
+}
